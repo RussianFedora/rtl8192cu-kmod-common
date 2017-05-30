@@ -2,7 +2,7 @@
 
 Name:		rtl8192cu-kmod-common
 Version:	4.0.2
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	Common package for rtl8192cu-kmod
 
 Group:		System Environment/Kernel
@@ -35,6 +35,9 @@ popd
 %{_sysconfdir}/modprobe.d/*
 
 %changelog
+* Tue May 30 2017 Alexei Panov <me AT elemc DOT name> 4.0.2-2
+-  added modprobe.d files
+
 * Tue May 30 2017 Alexei Panov <me AT elemc DOT name> 4.3.14-2
 -  Initial build
 
